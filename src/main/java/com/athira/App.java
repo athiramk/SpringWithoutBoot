@@ -26,6 +26,7 @@ public class App
         // GetBean's output needs to be typecasted when we give the id instead of Class name
         Laptop obj = (Laptop) context.getBean("laptop");
         obj.compile();
+        System.out.println(obj.getPrice());
 
     }
 }
