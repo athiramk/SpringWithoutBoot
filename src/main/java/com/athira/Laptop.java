@@ -14,6 +14,12 @@ public class Laptop {
     public int getPrice() {
         return price;
     }
+
+    public Laptop(int price) {
+        this.price = price;
+        System.out.println("Creating Laptop bean in parameterised constructor");
+    }
+
     public Laptop() {
         System.out.println("Creating Laptop bean");
     }

@@ -4,7 +4,12 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="laptop" class="com.athira.Laptop">
-        <property name = "price" value = "2000" />
+
+<!--        Setter Injection-->
+<!--        <property name = "price" value = "2000" />-->
+
+<!--        Constructor Injection-->
+        <constructor-arg value="2020" />
     </bean>
 
 </beans>
