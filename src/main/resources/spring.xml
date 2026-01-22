@@ -12,8 +12,14 @@
 <!--        <constructor-arg name ="price" value="2020" />-->
 
 <!--            Setter Injection-->
-            <property name = "price" value = "2000" />
-        <property name = "charger" ref = "charger1" />
+<!--            <property name = "price" value = "2000" />
+        <property name = "charger" ref = "charger1" />-->
+
+<!--        Constructor Injection-->
+        <constructor-arg name ="charger" ref="charger1" />
+        <constructor-arg name ="price" value="2020" />
+
+
     </bean>
 
     <bean id="charger1" class="com.athira.Charger">

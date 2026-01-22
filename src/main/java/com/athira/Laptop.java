@@ -5,10 +5,11 @@ public class Laptop {
         return charger;
     }
 
-    /*public Laptop(Charger charger, int price) {
+    public Laptop(Charger charger, int price) {
         this.charger = charger;
         this.price = price;
-    }*/
+        System.out.println("Creating Laptop bean in parameterised constructor 2");
+    }
 
     public void setCharger(Charger charger) {
         this.charger = charger;
