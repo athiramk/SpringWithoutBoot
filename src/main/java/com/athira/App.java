@@ -21,7 +21,10 @@ public class App
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
 
         //bean is not created unless we mention the bean in the spring.xml
-        Laptop obj = context.getBean(Laptop.class);
+        //Laptop obj = context.getBean(Laptop.class);
+
+        // GetBean's output needs to be typecasted when we give the id instead of Class name
+        Laptop obj = (Laptop) context.getBean("laptop");
         obj.compile();
 
     }

@@ -6,4 +6,7 @@
     <bean id="laptop" class="com.athira.Laptop">
     </bean>
 
+    <bean id="laptop2" class="com.athira.Laptop">
+    </bean>
+
 </beans>
