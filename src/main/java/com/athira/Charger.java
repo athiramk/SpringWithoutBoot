@@ -1,4 +1,4 @@
 package com.athira;
 
-public class Dev {
+public class Charger {
 }
