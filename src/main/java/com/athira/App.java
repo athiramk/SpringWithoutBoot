@@ -28,5 +28,8 @@ public class App
         obj.compile();
         System.out.println(obj.getPrice());
 
+
+        Computer comp = context.getBean(Computer.class);
+        comp.compile();
     }
 }

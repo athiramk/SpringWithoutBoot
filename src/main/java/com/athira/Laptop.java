@@ -1,6 +1,10 @@
 package com.athira;
 
 public class Laptop {
+    private int price;
+    private Charger charger;
+
+
     public Charger getCharger() {
         return charger;
     }
@@ -15,8 +19,7 @@ public class Laptop {
         this.charger = charger;
     }
 
-    private int price;
-    private Charger charger;
+
     /*
     This setter methods uses value passed from spring.xml as property
     And this is setter injection

@@ -24,4 +24,16 @@
 
     <bean id="charger1" class="com.athira.Charger">
 </bean>
+
+
+<!--Field Constructor in spring-->
+    <bean id="computer" class="com.athira.Computer" autowire="byType">
+    </bean>
+
+    <bean id="mouse" class="com.athira.Mouse" >
+    </bean>
+
+    <bean id="trackpad" class="com.athira.Trackpad" primary="true">
+    </bean>
+
 </beans>
